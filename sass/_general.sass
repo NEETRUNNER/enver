@@ -1,0 +1,322 @@
+$primary-color: #19191B
+$secondary-color: #5454D4
+
+header
+    height: 120px
+    background: $primary-color
+    nav
+        display: flex
+        padding-top: 40px
+        justify-content: space-between
+        .header
+            &_menu
+                margin-bottom: 0
+                display: flex   
+                justify-content: center
+                align-items: center
+            &_item
+                margin-right: 40px
+                list-style-type: none
+                transition: 0.5s all
+                &:hover
+                    border-bottom: solid
+                    color: #DDA0DD
+                &:nth-child(4)
+                    margin-right: 0
+            &_link
+                text-decoration: none
+                color: rgba(255, 255, 255, 0.70)
+                text-align: right
+                font-family: Nunito Sans
+                font-size: 18px
+                font-style: normal
+                font-weight: 400
+                line-height: normal
+                transition: 0.2s all
+                &:hover
+                    color: #5454D4
+            &_btn
+                width: 157px
+                height: 44px
+                border-radius: 5px
+                border: 1px solid #FFF
+                backdrop-filter: blur(1px)
+                background: #19191B
+                color: #FFF
+                text-align: center
+                font-family: Nunito Sans
+                font-size: 16px
+                font-style: normal
+                font-weight: 400
+                line-height: normal
+                letter-spacing: -0.5px
+                transition: 0.2s all
+                &:hover
+                    background: #5454D4
+.main
+    background: $primary-color
+    min-height: 850px
+    .main_block
+        padding-top: 115px
+        &_title
+            color: #FFF
+            font-family: lato
+            font-size: 80px
+            font-style: normal
+            font-weight: 700
+            line-height: 84px
+            margin-bottom: 0
+        &_text
+            padding-top: 24px
+            color: rgba(255, 255, 255, 0.70)
+            font-family: Nunito Sans
+            font-size: 21px
+            font-style: normal
+            font-weight: 400
+            line-height: 39px
+            letter-spacing: -0.657px
+            margin-bottom: 0
+        &_btn
+            margin-top: 50px
+            width: 204px
+            height: 58px
+            border-radius: 4px
+            background: #5454D4
+            color: #FFF
+            font-family: Nunito Sans
+            font-size: 20px
+            font-style: normal
+            font-weight: 700
+            line-height: normal
+            transition: 0.5s all
+            &:hover
+                -webkit-transform: scale(1.2)
+                -ms-transform: scale(1.2)
+                transform: scale(1.2)
+            &:active
+                box-shadow: inset 0 0 0 6px #53ea93
+.second
+    min-height: 860px
+    background: $primary-color
+    .second_block
+        background: #6A5ACD
+        border-radius: 25px
+        align-items: center
+        display: block
+        justify-content: center
+        text-align: center
+        transition: 0.5s
+        &:hover
+            background: #DC143C
+        &_title
+            color: #FFF
+            font-family: lato
+            font-size: 60px
+            font-style: normal
+            font-weight: 700
+            line-height: 70px
+        &_text
+            color: rgba(255, 255, 255, 0.70)
+            font-family: Nunito Sans
+            font-size: 21px
+            font-style: normal
+            font-weight: 400
+            line-height: 39px
+            letter-spacing: -0.657px
+.second_block_video
+    display: block
+    text-align: center
+    padding-top: 50px
+    transition: 0.5s all
+.third
+    padding: 50px 0 0 0
+    min-height: 700px
+    background: $primary-color
+    &_title
+        margin: 0
+        color: #FFF
+        text-align: center
+        font-family: Nunito Sans
+        font-size: 60px
+        font-style: normal
+        font-weight: 700
+        line-height: 70px
+    .third_block
+        border-radius: 25px
+        max-width: 1000px
+        height: 90px
+        background: #6A5ACD
+        display: flex
+        justify-content: center
+        margin: 0 auto
+        align-items: center
+        transition: 0.5s all
+        &:hover
+            background: #DC143C
+    .third_part
+        padding-top: 50px
+        text-align: center
+        &_title
+            padding-top: 20px
+            color: #FFF
+            text-align: center
+            font-family: Nunito Sans
+            font-size: 28px
+            font-style: normal
+            font-weight: 600
+            line-height: normal
+            letter-spacing: -0.75px
+        &_text
+            padding-top: 20px
+            color: rgba(255, 255, 255, 0.70)
+            text-align: center
+            font-family: Nunito Sans
+            font-size: 20px
+            font-style: normal
+            font-weight: 400
+            line-height: 28px
+            letter-spacing: -0.5px
+            min-width: 299px
+.four
+    min-height: 715px
+    background: $primary-color
+    padding: 50px 0 0 0
+    &_block
+        background: #6A5ACD
+        border-radius: 25px
+        align-items: center
+        display: block
+        justify-content: center
+        text-align: center
+        transition: 0.5s
+        &:hover
+            background: #DC143C
+    &_title
+        color: #FFF
+        text-align: center
+        font-family: Nunito Sans
+        font-size: 58px
+        font-style: normal
+        font-weight: 800
+        line-height: normal
+    .four_part
+        display: flex
+        justify-content: center
+        .four_block_1
+            padding-top: 70px
+        .four_block_2
+            padding-top: 130px
+        .four_block_3
+            padding-top: 180px
+        &_border
+            display: flex
+            width: 384px
+            height: 301px
+            border-radius: 14px
+            background: #1E1E20
+            transition: 0.5s all
+            &:hover
+                background: #6A5ACD
+                padding: 10px
+        .four_logo
+            display: block
+            padding: 24px
+    .line_block
+        display: flex
+        justify-content: center
+        padding-top: 50px   
+        &_1
+            height: 16px
+            width: 16px
+            border-radius: 10px
+            background: #121213
+            transition: 0.2s all
+            margin-right: 6px
+            &:hover
+                background: #5454D4
+        &_2
+            height: 16px
+            width: 16px
+            border-radius: 10px
+            background: #121213
+            transition: 0.2s all
+            margin-right: 6px
+            &:hover
+                background: #5454D4
+        &_3
+            height: 16px
+            width: 16px
+            border-radius: 10px
+            background: #121213
+            transition: 0.2s all
+            margin-right: 6px
+            &:hover
+                background: #5454D4
+.end
+    background: $primary-color
+    min-height: 406px
+    padding: 50px 0 0 0
+    &_block
+        background: #5454D4
+        border-radius: 25px
+        transition: 0.5s all
+        &:hover
+            background: #DC143C
+    &_title
+        color: #FFF
+        font-family: Nunito Sans
+        font-size: 60px
+        font-style: normal
+        font-weight: 700
+        line-height: normal
+        text-align: center
+    &_btn
+        display: block
+        margin: 80px auto
+        width: 204px
+        height: 58px
+        border-radius: 4px
+        background: #5454D4
+        color: #FFF
+        font-family: Nunito Sans
+        font-size: 20px
+        font-style: normal
+        font-weight: 700
+        line-height: normal
+        transition: 0.5s all
+        &:hover
+            -webkit-transform: scale(1.2)
+            -ms-transform: scale(1.2)
+            transform: scale(1.2)
+        &:active
+            box-shadow: inset 0 0 0 6px #53ea93
+.footer
+    min-height: 120px
+    background: $primary-color
+    &_menu
+        display: flex
+        padding-left: 90px
+    &_item
+        list-style-type: none
+        margin-left: 40px
+    &_link
+        text-decoration: none
+        color: rgba(255, 255, 255, 0.70)
+        text-align: center
+        font-family: Nunito Sans
+        font-size: 18px
+        font-style: normal
+        font-weight: 400
+        line-height: normal
+    &_end
+        color: rgba(255, 255, 255, 0.70)
+        font-family: Nunito Sans
+        font-size: 16px
+        font-style: normal
+        font-weight: 400
+        line-height: 38px
+        letter-spacing: -0.5px
+    nav
+        display: flex
+        justify-content: space-between
+        align-items: center
